@@ -1,0 +1,23 @@
+Test Cases:
+Input
+Enter the no of process: 4
+Enter the no of resources: 5
+
+Total Amount of the Resource R1: 2
+Total Amount of the Resource R2: 1
+Total Amount of the Resource R3: 1
+Total Amount of the Resource R4: 2
+Total Amount of the Resource R5: 1
+
+Enter the request matrix:0 1 0 0 1
+0 0 1 0 1
+0 0 0 0 1
+1 0 1 0 1
+
+Enter the allocation matrix:1 0 1 1 0
+1 1 0 0 0
+0 0 0 1 0
+0 0 0 0 0
+
+Output
+ Deadlock detected
